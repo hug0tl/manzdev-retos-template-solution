@@ -1,0 +1,100 @@
+@font-face {
+    font-family: Poppins;
+    src: local("Poppins"), url(./components/fonts/poppins/Poppins-Regular.ttf);    
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    background: linear-gradient(to right, #fc00ff, #00dbde);
+}
+p{
+    color: #888888;
+}
+p, h1{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 450px;
+    height: 600px;
+    margin: 4rem auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.icon{
+    width: 20px;
+    height: 20px;
+    vertical-align: bottom;
+}
+.container .hero-image{
+    background: linear-gradient(to top, #0D687B99, #ffffff30), url("./img/lofi.png");
+    background-size: cover, cover;
+    background-repeat: no-repeat, no-repeat;   
+    height: 180px;
+    background-position: bottom, bottom center;
+    border-bottom: 3px solid #0D687B;
+    border-radius: 10px 10px 0 0;
+}
+.container .hero-image img{
+    width: 26%;
+    border-radius: 100%;
+    border: 3px solid #0D687B;
+    position: relative;
+    top: 45%;
+    left: 37%;
+}
+.container .card-content{
+    padding: 0 50px;
+    text-align: center;
+}
+.container .card-content > p{
+    padding-bottom: 20px;
+}
+.container .card-content button{
+    margin-top: 30px;
+    border: 0;
+    background: transparent;
+}
+.container .card-content button a{
+    text-decoration: none;
+    padding: 10px 30px;
+    border: 2px solid #0D687B;
+    border-radius: 30px;
+    transition: .3s ease;
+    transition-property: background, color;
+    cursor: pointer;
+    color: #0D687B;
+}
+.container .card-content a:hover{
+    background-color: #0D687B;
+    color: white;
+}
+.container .footer{
+    height: 60px;
+    position: inherit;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+.container .footer .card{
+    display: flex;
+    border-top: 1px solid #0D687B50;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0 1.5rem;
+}
+.container .footer .card:nth-child(2){
+    border-left: 1px solid #0D687B50;
+    border-right: 1px solid #0D687B50;
+}
+
