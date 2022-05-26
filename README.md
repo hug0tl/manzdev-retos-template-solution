@@ -11,7 +11,7 @@
 
 ## Resultado 
 
-https://raw.githubusercontent.com/hug0tl/solution-manzdev-retos-template/main/src/img/index.png
+![](./src/img/index.png)
 
 ---
 
